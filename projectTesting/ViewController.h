@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "secondViewController.h"
 
 @interface ViewController : UIViewController
-
+{
+    
+ IBOutlet UITextField *name;
+}
+- (IBAction)click:(id)sender;
 
 @end
 

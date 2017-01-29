@@ -15,6 +15,9 @@
 		329728281E39C5E200C35134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329728261E39C5E200C35134 /* LaunchScreen.storyboard */; };
 		329728331E39C5E200C35134 /* projectTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329728321E39C5E200C35134 /* projectTestingTests.m */; };
 		3297283E1E39C5E200C35134 /* projectTestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3297283D1E39C5E200C35134 /* projectTestingUITests.m */; };
+		329728501E39C7C400C35134 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3297284F1E39C7C400C35134 /* secondViewController.m */; };
+		329728561E39C80700C35134 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329728551E39C80700C35134 /* CollectionViewController.m */; };
+		329728591E3A027D00C35134 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329728581E3A027D00C35134 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		329728391E39C5E200C35134 /* projectTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3297283D1E39C5E200C35134 /* projectTestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectTestingUITests.m; sourceTree = "<group>"; };
 		3297283F1E39C5E200C35134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3297284E1E39C7C400C35134 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		3297284F1E39C7C400C35134 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		329728541E39C80700C35134 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		329728551E39C80700C35134 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		329728571E3A027D00C35134 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		329728581E3A027D00C35134 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				329728261E39C5E200C35134 /* LaunchScreen.storyboard */,
 				329728291E39C5E200C35134 /* Info.plist */,
 				329728181E39C5E200C35134 /* Supporting Files */,
+				3297284E1E39C7C400C35134 /* secondViewController.h */,
+				3297284F1E39C7C400C35134 /* secondViewController.m */,
+				329728541E39C80700C35134 /* CollectionViewController.h */,
+				329728551E39C80700C35134 /* CollectionViewController.m */,
+				329728571E3A027D00C35134 /* CollectionViewCell.h */,
+				329728581E3A027D00C35134 /* CollectionViewCell.m */,
 			);
 			path = projectTesting;
 			sourceTree = "<group>";
@@ -273,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329728591E3A027D00C35134 /* CollectionViewCell.m in Sources */,
+				329728501E39C7C400C35134 /* secondViewController.m in Sources */,
 				329728201E39C5E200C35134 /* ViewController.m in Sources */,
 				3297281D1E39C5E200C35134 /* AppDelegate.m in Sources */,
+				329728561E39C80700C35134 /* CollectionViewController.m in Sources */,
 				3297281A1E39C5E200C35134 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +523,7 @@
 				329728441E39C5E200C35134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		329728451E39C5E200C35134 /* Build configuration list for PBXNativeTarget "projectTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				329728471E39C5E200C35134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		329728481E39C5E200C35134 /* Build configuration list for PBXNativeTarget "projectTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +541,7 @@
 				3297284A1E39C5E200C35134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
